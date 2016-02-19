@@ -14,12 +14,14 @@ import android.widget.TextView;
 import android.widget.Button;
 import android.widget.EditText;
 
-// private instance variables
-private TextView _welcomeLabel;
-private Button _clickMeButton;
-private EditText _userInputTextBox;
+
 
 public class MainActivity extends AppCompatActivity {
+
+    // private instance variables
+    private TextView _welcomeLabel;
+    private Button _clickMeButton;
+    private EditText _userInputTextBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
